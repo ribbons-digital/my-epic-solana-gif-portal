@@ -18,7 +18,7 @@ const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 // ];
 
 // SystemProgram is a reference to the Solana runtime!
-const { SystemProgram, Keypair } = web3;
+const { SystemProgram } = web3;
 
 // Create a keypair for the account that will hold the GIF data. (but new one is created everytime the page refreshes)
 // let baseAccount = Keypair.generate();
