@@ -211,6 +211,7 @@ const App = () => {
 
       getGifList();
     }
+    // eslint-disable-next-line
   }, [walletAddress]);
 
   return (
